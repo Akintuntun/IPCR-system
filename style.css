@@ -1,0 +1,22 @@
+
+body{
+
+    background-image: url(images/image.jpg);
+	background-position-y: center;
+	background-attachment: fixed;
+	background-size: cover;
+	margin: 0;
+
+}
+
+.header{
+    color: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: rgba(158,0,0,0.7)
+
+}
+
+
+
