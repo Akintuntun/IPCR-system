@@ -13,29 +13,45 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <header>
-        <div class="header">
-            <img src="" alt="sam" class="lspu-logo">
-            <div class="label">
-                <h1 class="title">Laguna State Polytechnic University San Pablo City Campus</h1>
-                <h2 class="college">College of Computer Studies</h2>
-            </div>
-            <img src="" alt="ple" class="ccs-logo">
+
+<header>
+    <div class="header">
+        <img src="C:/Users/Windows/Documents/Web Development/IPCR/IPCR-system/images/lspu-logo.png" alt="LSPU-LOGO" class="logo">
+        <div class="label">
+            <h1 class="title"><i>Laguna State Polytechnic University San Pablo City Campus</i></h1>
+            <h2 class="college">College of Computer Studies</h2>
         </div>
-        <div class="button-login">
-            <input type="button" value="Login">
-        </div>
-    </header>
-    <div class="container">
-        <div class="labels">
-            <h1>Individual Performance Commitment and Review System</h1>
-            <h5 class="caption">Individual Performance Commitment and Review (IPCR) Form.
-                 Refers to the performance management tool required to be submitted by an employee every semester.
-                  It contains his/her commitments to the attainment of office goals and objectives and accomplishments at the nd of rating period.</h5>
-            <hr>
-            <h2>I/P/C/R - System</h2>
-        </div>
+        <img src="C:\Users\Windows\Documents\Web Development\IPCR Protoype\media\ccs.png" alt="CCS-LOGO" class="logo">
     </div>
+    <div class="button-login">
+        <button type="button" class="btn-log" data-bs-toggle="dropdown" aria-expanded="false">
+            Login
+        </button>
+        <ul class="dropdown-menu" aria-labelledby="loginDropdown">
+            <li><a class="dropdown-item" href="#">Dean</a></li>
+            <li><a class="dropdown-item" href="#">Faculty</a></li>
+        </ul>
+    </div>
+</header>
+<br><br>
+<div class="container">
+    <div class="labels">
+        <h1 class="ipcr">Individual Performance Commitment and <br>Review System</h1>
+        <br>
+        <p class="caption">Individual Performance Commitment and Review (IPCR) Form.
+            Refers to the performance management tool required to be submitted by an employee every semester.
+            It contains his/her commitments to the attainment of office goals and objectives and accomplishments at the end of the rating period.
+        </p>
+        <hr>
+        <h2>I/P/C/R - System</h2>
+    </div>
+</div>
+
+<footer>
+    <div class="foot">
+        <input type="button" value="Admin" class="btn-admin" onclick="window.location.href='admin.html'">
+    </div>
+</footer>
 
 </body>
 </html>
