@@ -13,10 +13,39 @@ body{
     color: white;
     width: 100%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     background-color: rgba(158,0,0,0.7)
 
 }
 
+.button-login{
+    display: flex;
+    justify-content: end;
+    background-color: rgba(253, 166, 3, 0.7);
+    padding: 5px;
+    padding-right: 70px;
+    font-size: 30px;
+    font-family: 'Inter', sans-serif;
+
+}
 
 
+.labels{
+    color:white;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 100px;
+
+}
+
+.caption{
+    width: 70%;
+}
+
+hr{
+    color: white;
+    width: 100%;
+    
+    
+}
