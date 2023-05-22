@@ -28,8 +28,8 @@
             Login
         </button>
         <ul class="dropdown-menu" aria-labelledby="loginDropdown">
-            <li><a class="dropdown-item" href="#">Dean</a></li>
-            <li><a class="dropdown-item" href="#">Faculty</a></li>
+            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#deanLoginModal">Dean</a></li>
+            <li><a class="dropdown-item" href="#" data-bs-toggle="modal" data-bs-target="#facultyLoginModal">Faculty</a></li>
         </ul>
     </div>
 </header>
@@ -53,5 +53,57 @@
     </div>
 </footer>
 
+<!--LOGIN POPUP ni Dean --> 
+<div class="modal fade" id="deanLoginModal" tabindex="-1" aria-labelledby="deanLoginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="deanLoginModalLabel">Dean Login</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="deanUsername" class="form-label">Username</label>
+                        <input type="text" class="form-control" id="deanUsername" placeholder="Enter your username">
+                    </div>
+                    <div class="mb-3">
+                        <label for="deanPassword" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="deanPassword" placeholder="Enter your password">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--LOGIN POPUP ni Faculty --> 
+<div class="modal fade" id="facultyLoginModal" tabindex="-1" aria-labelledby="facultyLoginModalLabel" aria-hidden="true">
+    <div class="modal-dialog">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="facultyLoginModalLabel">Faculty Login</h5>
+                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+            </div>
+            <div class="modal-body">
+                <form>
+                    <div class="mb-3">
+                        <label for="facultyUsername" class="form-label">Username</label>
+                        <input type="text" class="form-control" id="facultyUsername" placeholder="Enter your username">
+                    </div>
+                    <div class="mb-3">
+                        <label for="facultyPassword" class="form-label">Password</label>
+                        <input type="password" class="form-control" id="facultyPassword" placeholder="Enter your password">
+                    </div>
+                    <button type="submit" class="btn btn-primary">Login</button>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+
+
 </body>
+
 </html>
